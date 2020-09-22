@@ -1,0 +1,19 @@
+Id: VeeamSoftware.VeeamAgentforMicrosoftWindows
+Publisher: Veeam Software
+Name: Veeam Agent for Microsoft Windows
+Version: 4.0.1.2169
+License: Copyright (c) Veeam Software. All rights reserved.
+InstallerType: EXE
+LicenseUrl: https://www.veeam.com/eula.html
+AppMoniker: 
+Tags: Veeam, agent, backup
+Description: FREE backup for Windows desktops and laptops
+Homepage: https://www.veeam.com/windows-endpoint-server-backup-free.html
+Installers:
+  - Arch: x64
+    InstallerType: EXE
+    Url: https://winget.blob.core.windows.net/software/VeeamAgentWindows_4.0.1.2169.exe
+    Sha256: 6DAC48520AFE664167ECF172E8A0F20FA4DC50E9394EE3F09C79D97C039177A9
+    Switches:
+      Silent: /silent /accepteula /acceptthirdpartylicenses
+ManifestVersion: 0.1.0
